@@ -97,7 +97,7 @@ MongoDB Atlas sample dataset — `sample_mflix`
 ### 1. Create a free cluster
 1. Go to [mongodb.com/atlas](https://www.mongodb.com/atlas)
 2. Click **"Try Free"** and create an account
-3. Create a new cluster → choose **M0 Free**
+3. Create a new cluster → choose **Cluster0 Free**
 4. Choose any provider and region closest to you
 
 ### 2. Configure access
@@ -119,14 +119,13 @@ mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true
 4. Replace `<password>` with your actual password
 5. Paste it in your `.env` file as `MONGO_URI=...`
 
-> ⚠️ **Never push your `.env` file to GitHub** — it contains your credentials
 
 ---
 
 ## Project Structure
 ```
 lab2_mongodb/
-├── mflix_pipeline_answers.py        ← main script (submitted to professor)
+├── mflix_pipeline_answers.py        ← main script 
 ├── requirements.txt                 ← Python dependencies
 ├── README.md                        ← project documentation
 ├── NOTES.md                         ← technical decisions & design choices
