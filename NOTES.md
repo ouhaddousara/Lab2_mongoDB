@@ -43,17 +43,3 @@ String dates would break all date-based aggregations.
 MongoDB Atlas uses TLS 1.2+. Some Windows networks (university, corporate)
 block port 27017 or intercept SSL → TLSV1_ALERT_INTERNAL_ERROR.
 Fix: add current IP to Atlas Network Access whitelist.
-```
-
----
-
-## Comment les mettre à jour sur GitHub
-
-1. Va sur **github.com/ouhaddousara/Lab2_mongoDB**
-2. Clique `README.md` → ✏️ → efface tout → colle → commit
-3. Clique `NOTES.md` → ✏️ → efface tout → colle → commit
-
-Commit messages :
-```
-docs: update README with full version
-docs: fix NOTES.md formatting
