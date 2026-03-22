@@ -72,9 +72,9 @@ lab2\_mongodb/
 
 ```bash
 
-git clone https://github.com/YOUR\_USERNAME/lab2-mongodb.git
+git clone https://github.com/ouhaddousara/Lab2_mongoDB.git
 
-cd lab2-mongodb
+cd Lab2_mongoDB
 
 ```
 
