@@ -2,6 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
+![Compass](https://img.shields.io/badge/MongoDB-Compass-lightblue)
 ![PyMongo](https://img.shields.io/badge/PyMongo-4.x-yellow)
 ![Pandas](https://img.shields.io/badge/Pandas-2.x-orange)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
@@ -17,7 +18,7 @@ aggregation pipelines, data enrichment, schema validation, and CSV export.
 ```
 MongoDB Atlas (sample_mflix)
          ↓
-    PyMongo Driver
+MongoDB Compass (visual inspection)
          ↓
 ┌─────────────────────────────────┐
 │  Q1 → Index Creation            │
