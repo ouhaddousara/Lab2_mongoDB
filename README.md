@@ -166,5 +166,5 @@ python mflix\_pipeline\_answers.py
 
 \## Author
 
-Sara — Data Engineering Lab, 2025
+Sara Ouhaddou — Data Engineering Lab, 2026
 
