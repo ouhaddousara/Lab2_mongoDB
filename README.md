@@ -83,10 +83,4 @@ python mflix_pipeline_answers.py
 
 ## Author
 Sara Ouhaddou — Data Engineering Lab, 2026
-```
 
----
-
-Commit message :
-```
-docs: fix README formatting and badges
