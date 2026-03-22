@@ -110,6 +110,8 @@ MongoDB Atlas sample dataset — `sample_mflix`
 3. Click **"Browse Collections"** → verify `sample_mflix` is loaded
 
 ### 4. Get your MONGO_URI
+
+**Method 1 — Via Drivers (for Python script)**
 1. Click **"Connect"** on your cluster
 2. Choose **"Drivers"** → Python → 3.12 or later
 3. Copy the connection string:
@@ -119,6 +121,13 @@ mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true
 4. Replace `<password>` with your actual password
 5. Paste it in your `.env` file as `MONGO_URI=...`
 
+**Method 2 — Via MongoDB Compass (for visual inspection)**
+1. Click **"Connect"** on your cluster
+2. Choose **"Compass"**
+3. Select **"I have MongoDB Compass installed"**
+4. Copy the connection string shown
+5. Open MongoDB Compass → paste the string → click **"Connect"**
+6. You can now browse collections visually alongside running the script
 
 ---
 
